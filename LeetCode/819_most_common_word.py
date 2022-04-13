@@ -13,7 +13,9 @@ class Solution:
         # 가장 흔하게 등장하는 단어의 첫번째 인덱스리턴
         return counts.most_common(1)[0][0]
 
+"""
 sol = Solution()
 paragraph = "a, a, a, a, b,b,b,c, c"
 banned = ["a"]
 print(sol.mostCommonWord(paragraph, banned))
+"""
