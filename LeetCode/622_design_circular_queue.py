@@ -15,7 +15,7 @@ class MyCircularQueue:
             else:
                 cur.next = self.ListNode(None)
                 cur = cur.next
-            cur.next = self.q_front  # 원형 리스트 사용
+        cur.next = self.q_front  # 원형 리스트 사용
         self.q_cursor = self.q_front
 
     def enQueue(self, value: int) -> bool:
